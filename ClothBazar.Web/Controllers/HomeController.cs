@@ -26,5 +26,11 @@ namespace ClothBazar.Web.Controllers
 
             return View();
         }
+        public ActionResult ShowDetails()
+        {
+            ViewBag.Message = "Your Details page.";
+
+            return View();
+        }
     }
 }
